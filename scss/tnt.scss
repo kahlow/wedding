@@ -1,0 +1,43 @@
+.headerrow {
+	background-color: #63b3b8;
+	padding-top: 3em;
+	padding-bottom: 3em;
+
+	h1, h2, h3, p {
+		color: rgb(62, 66, 67)!important;
+	}
+
+	.headerimg, .headertitle, .headernav {
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+
+	.headerimg {
+		padding-bottom: 0;
+	}
+}
+
+.when {
+	background-color: #92CCA6;
+	padding-top: 3em;
+	padding-bottom: 3em;
+}
+
+.give {
+	background-color: #FF3366;
+	padding-top: 3em;
+	padding-bottom: 3em;
+
+	h2 {
+		color: white;
+	}
+}
+
+#googleMap {
+	height: 500px;
+}
+
+.pagebreak {
+	height: 15px;
+	background-color: white;
+}
