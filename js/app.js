@@ -27,7 +27,9 @@ function initialize() {
     });
 
     var infowindow = new google.maps.InfoWindow({
-      content: "Here"
+      content: "<p class='text-center'><a href='http://www.harmonstreefarmllc.com/'>Harmons Tree Farm</a></br>" + 
+                "<a href='https://goo.gl/maps/BdLsw'>3152 Augusta Rd, Gilbert, SC 29054</a><br/>" +
+                "(803) 359-4454</p>"
 	});
 
     google.maps.event.addListener(marker, 'click', function() {
@@ -36,3 +38,33 @@ function initialize() {
 }
 
 google.maps.event.addDomListener(window, 'load', initialize);
+
+
+$(document).ready(function(){
+    $( ".when-nav" ).click(function() {
+        $('html,body').animate({
+            scrollTop: $('.when-pagebreak').offset().top
+        });
+    });
+
+    $( ".home-nav" ).click(function() {
+        $('html,body').animate({
+            scrollTop: $('.promo').offset().top
+        });
+    });
+
+    $( ".where-nav" ).click(function() {
+        $('html,body').animate({
+            scrollTop: $('#googleMap').offset().top
+        });
+    });
+
+    $( ".give-nav" ).click(function() {
+        $('html,body').animate({
+            scrollTop: $('.give').offset().top
+        });
+    });
+
+
+});
+

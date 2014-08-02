@@ -7,47 +7,61 @@
   <link rel="stylesheet" href="css/app.css" />
   <script src="bower_components/modernizr/modernizr.js"></script>
   <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+  <link rel="stylesheet" href="bower_components/fontawesome/css/font-awesome.min.css"/>
 </head>
 <body>
-  <nav class="top-bar" data-topbar>
-    <ul class="title-area">
-      <li class="name">
-        <h1><a href="#">Tommy & Tamra</a></h1>
-      </li>
-      <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
-    </ul>
-    <section class="top-bar-section">
-      <ul class="right">
-        <li class="active"><a href="#">Home</a></li>
-        <li><a href="#">When</a></li>
-        <li><a href="#">Where</a></li>
-        <li><a href="#">Give</a></li>
-      </ul>
-    </section>
-  </nav>
+    <div class="sticky">
+      <nav class="top-bar" data-topbar>
+        <ul class="title-area">
+          <li class="name">
+            <h1><a href="#">Tommy & Tamra</a></h1>
+          </li>
+          <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+        </ul>
+        <section class="top-bar-section">
+          <ul class="right">
+            <li class="active"><a class="home-nav" href="javascript:void(0)">Home</a></li>
+            <li><a class="when-nav" href="javascript:void(0)">When</a></li>
+            <li><a class="where-nav" href="javascript:void(0)">Where</a></li>
+            <li><a class="give-nav" href="javascript:void(0)">Registered</a></li>
+          </ul>
+        </section>
+      </nav>
+  </div>
+  <div class="promo"></div>
   <div class="headerrow">
     <div class="row headertitle">
-      <div class="small-12 large-6 text-center columns"><img src="http://placekitten.com/350"/></div>
-      <div class="small-12 large-6 columns"><h4>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat</h4></div>
-    </div>
-    <div class="row headernav text-center">
-      <div class="small-6 large-4 columns"><h2>when</h2></div>
-      <div class="small-6 large-4 columns"><h2>where</h2></div>
-      <div class="small-12 large-4 columns"><h2>give us stuff</h2></div>
+      <div class="small-12 columns">
+        <h2>
+            Tamra and Tommy are celebrating their marriage. Join us for BBQ, drinks and karaoke!
+        </h2>
+        <div id="heart"></div>
+      </div>
     </div>
   </div>
-  <div class="pagebreak"></div>
+  <div class="when-pagebreak"></div>
   <div class="when">
     <div class="row">
-      <div class="small-12">
-        <h2>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat</h2>
+      <div class="small-12 columns text-center">
+        <h2>November 15th, 2014</h2>
+        <h2>5:30pm</h2>
+        <h2><i class="fa fa-calendar"></i></h2>
       </div>
     </div>
   </div>
   <div id="googleMap"></div>
+  <div class="where">
+    <div class="row">
+      <div class="small-12 medium-8 medium-offset-2 columns text-center">
+        <h2><a href='http://www.harmonstreefarmllc.com/'>Harmons Tree Farm</a></h2>
+        <h2><a href='https://goo.gl/maps/BdLsw'>3152 Augusta Rd, Gilbert, SC 29054</a></h2>
+        <h2>(803) 359-4454</h2>
+      </div>
+    </div>
+  </div>
   <div class="give">
     <div class="row">
-      <div class="small-12">
+      <div class="small-12 columns">
         <h2>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat</h2>
       </div>
     </div>
