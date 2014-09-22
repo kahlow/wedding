@@ -1,10 +1,14 @@
+body, h1, h2, h3, h4, p {
+    font-family: 'Special Elite', cursive !important;
+}
+
 .headerrow {
 	background-color: #66CC99;
 	padding-top: 3em;
 	padding-bottom: 3em;
-    font-family: 'Special Elite', cursive;
 
 	h1, h2, h3, p {
+
 		color: white!important;
 	}
 
@@ -79,9 +83,9 @@
 }
 
 .promo {
-    background: url(../img/IMG_4121.png) no-repeat top center;
+    background: url(../img/IMG_4121.png) no-repeat center top fixed;
     background-size: cover;
-    height: 350px;
+    height: 400px;
 }
 
 #heart {
