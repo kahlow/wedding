@@ -1,11 +1,17 @@
 .headerrow {
-	background-color: #63b3b8;
+	background-color: #66CC99;
 	padding-top: 3em;
 	padding-bottom: 3em;
+    font-family: 'Special Elite', cursive;
 
 	h1, h2, h3, p {
-		color: rgb(62, 66, 67)!important;
+		color: white!important;
 	}
+
+    h1 {
+        font-size: 4rem;
+        font-weight: 200;
+    }
 
 	.headerimg, .headertitle, .headernav {
 		padding-top: 1em;
@@ -23,7 +29,7 @@
 }
 
 .when {
-	background-color: #92CCA6;
+	background-color: #FFFF99;
     .row {
         padding-top: 3em;
         padding-bottom: 3em;
@@ -31,10 +37,7 @@
 	
 
     h2 {
-        i {
-            
-            font-size: 3em;
-        }
+        font-size: 3rem;
     }
 
 }
