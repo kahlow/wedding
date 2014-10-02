@@ -85,12 +85,15 @@ body, h1, h2, h3, h4, p {
 .promo {
     background: url(../img/IMG_4121.png) no-repeat center top fixed;
     background-size: cover;
-    -moz-background-size: cover;
-    -webkit-background-size: cover;
-    -o-background-size: cover;
-    
     height: 400px;
 }
+
+@media(max-width:768px){
+    .promo {
+        background-size: contain;
+        height: 200px;
+    }
+} 
 
 #heart {
     position: relative;
