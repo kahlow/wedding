@@ -80,6 +80,10 @@ body, h1, h2, h3, h4, p {
 .photo {
     padding-top: 100px;
     padding-bottom: 100px;
+
+    img {
+        padding: 5px;
+    }
 }
 
 .pagebreak, .when-pagebreak {
