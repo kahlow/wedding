@@ -39,7 +39,6 @@ function initialize() {
 
 google.maps.event.addDomListener(window, 'load', initialize);
 
-
 $(document).ready(function(){
     $( ".when-nav" ).click(function() {
         $('html,body').animate({
@@ -71,7 +70,4 @@ $(document).ready(function(){
         clientId: 'c8891fa90e64440989271dc1b18c53b9'
     });
     feed.run();
-
-
 });
-
