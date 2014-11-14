@@ -52,6 +52,12 @@ $(document).ready(function(){
         });
     });
 
+    $( ".photo-nav" ).click(function() {
+        $('html,body').animate({
+            scrollTop: $('.photo').offset().top
+        });
+    });
+
     $( ".where-nav" ).click(function() {
         $('html,body').animate({
             scrollTop: $('#googleMap').offset().top
