@@ -72,7 +72,7 @@ $(document).ready(function(){
 
     var feed = new Instafeed({
         get: 'tagged',
-        tagName: 'awesome',
+        tagName: 'kahlow2014',
         clientId: 'c8891fa90e64440989271dc1b18c53b9',
         resolution: 'low_resolution'
     });
